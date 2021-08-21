@@ -25,3 +25,42 @@
 | Изменение владельца     | **objchng_o**    | **path owner**<br/> path – путь к файлу/папке;<br/> owner – имя нового владельца.| objchng_o C:\1.docx Администраторы  |
 | Изменение уровня целостности файла     | **objchng_l**    | **path level**<br/> path – путь к файлу/папке;<br/> owner – имя нового владельца;<br/> level – новый уровень целостности, нумеруется от 0 до 3, где 0 - untrusted, 1 – low, 2 - medium, 3 – high.| objchng_o C:\1.docx 2  |
 
+## Соответсвие номеров и прав для объектов / привилегий для процессов
+| №  | Привилегия для процессов                     | Права для объектов                |
+| -- |:--------------------------------------------:| ---------------------------------:|
+| 0  | SeAssignPrimaryTokenPrivilege                | Полный доступ                     |
+| 1  | SeAuditPrivilege                             | Полное чтение                     |
+| 2  | SeBackupPrivilege                            | Полная запись                     |
+| 3  | SeChangeNotifyPrivilege                      | Полное исполнение                 |
+| 4  | SeCreateGlobalPrivilege                      | Удаление                          |
+| 5  | SeCreatePagefilePrivilege                    | Чтение разрешений                 |
+| 6  | SeCreatePermanentPrivilege                   | Смена разрешений                  |
+| 7  | SeCreateSymbolicLinkPrivilege                | Содержание папки/чтение данных    |
+| 8  | SeCreateTokenPrivilege                       | Создание файлов/запись данных     |
+| 9  | SeDebugPrivilege                             | Создание папок/дозапись данных    |
+| 10 | SeDelegateSessionUserImpersonatePrivilege    | Траверс папок/выполнение          |
+| 11 | SeEnableDelegationPrivilege                  | Изменение владельца               |
+| 12 | SeImpersonatePrivilege                       | Чтение атрибутов                  |
+| 13 | SeIncreaseBasePriorityPrivilege              | Запись атрибутов                  |
+| 14 | SeIncreaseQuotaPrivilege                     | Чтение дополнительных атрибутов   |
+| 15 | SeIncreaseWorkingSetPrivilege                | Запись дополнительных атрибутов   |
+| 16 | SeLoadDriverPrivilege                        |                                   |
+| 17 | SeLockMemoryPrivilege                        |                                   |
+| 18 | SeMachineAccountPrivilege                    |                                   |
+| 19 | SeManageVolumePrivilege                      |                                   |
+| 20 | SeProfileSingleProcessPrivilege              |                                   |
+| 21 | SeRelabelPrivilege                           |                                   |
+| 22 | SeRemoteShutdownPrivilege                    |                                   |
+| 23 | SeRestorePrivilege                           |                                   |
+| 24 | SeSecurityPrivilege                          |                                   |
+| 25 | SeShutdownPrivilege                          |                                   |
+| 26 | SeSyncAgentPrivilege                         |                                   |
+| 27 | SeSystemEnvironmentPrivilege                 |                                   |
+| 28 | SeSystemProfilePrivilege                     |                                   |
+| 29 | SeSystemtimePrivilege                        |                                   |
+| 30 | SeTakeOwnershipPrivilege                     |                                   |
+| 31 | SeTcbPrivilege                               |                                   |
+| 32 | SeTimeZonePrivilege                          |                                   |
+| 33 | SeTrustedCredManAccessPrivilege              |                                   |
+| 34 | SeUndockPrivilege                            |                                   |
+| 35 | SeUnsolicitedInputPrivilege                  |                                   |
